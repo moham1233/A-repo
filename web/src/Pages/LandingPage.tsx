@@ -1,10 +1,11 @@
-import Header from "../Header/Header";
+import SimpleForm from "../Components/Form/SimpleForm";
+import Header from "../Components/Header/Header";
 
 const LandingPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <div>hello world</div>
+      <SimpleForm />
     </>
   );
 };
